@@ -18,8 +18,11 @@
         <ul class="w3-navbar w3-aqua">
         <li><a href=>Home</a></li>
 
-        <li><a href="home.php">Add seeling info</a></li>
-       
+          <li><a href="home.php">Add seeling info</a></li>
+         <li><a href="product.php"> Add Product</a></li>
+          <li><a href="stock.php">Stock info</a></li>
+           <li><a href="payment.php">Payment info</a></li>
+            <li><a href="home.php">Order List</a></li>
        
       <li class="w3-right w3-teal"><a href="sign_login.html">Sign Up/Log In</a></li>
         
