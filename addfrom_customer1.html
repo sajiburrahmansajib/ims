@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>New Customer</title>
+  <link rel="stylesheet" href="css/semantic.min.css">
+</head>
+
+<body>
+
+<div style="background-color: seagreen; padding: 2%;">
+	<h1 style="color: darkred;">Insert New customer  Info</h1>
+	<h3 style="color:lightskyblue;">The data will be inserted </h3>
+</div>
+<br>
+	<div class="ui text container">
+    	<form class="ui form" method="post" action="db/insert.php">
+
+          <div class="field">
+        <label>Id</label>
+        <input type="text" name="customer_id" value="No Need" placeholder="customer Id">
+      </div>
+
+         <div class="field">
+        <label>Name</label>
+        <input type="text" name="customer_name" placeholder="customer Name">
+      </div>
+
+      
+      <div class="field">
+        <label>phone</label>
+        <input type="text" name="customer_phone" placeholder="customer phone">
+      </div>
+      <div class="field">
+        <label>email</label>
+        <input type="text" name="customer_email" placeholder="customer email">
+      </div>
+      <div class="field">
+        <label> address</label>
+        <input type="text" name="customer_address" placeholder="customer address ">
+      </div>
+     
+
+      <div style="padding: 5px">
+        <button style="color:brown;background-color: black;">submit</button>        
+     </div>
+    </form>
+</div>
+ 
+</body>
+
+</html
